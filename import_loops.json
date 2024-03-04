@@ -1,39 +1,39 @@
 {
     "loops": [
         [
-            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/product_controller.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/product_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/models/product.py"
+            "controllers/product_controller.py",
+            "services/product_service.py",
+            "models/product.py"
         ],
         [
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/session_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/common.py"
+            "services/auth_service.py",
+            "models/user.py",
+            "controllers/user_controller.py",
+            "services/user_service.py"
         ],
         [
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py"
+            "services/auth_service.py",
+            "models/user.py",
+            "controllers/user_controller.py",
+            "services/user_service.py",
+            "utils/common.py",
+            "utils/auth_utils.py"
         ],
         [
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/auth_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py"
+            "services/auth_service.py",
+            "utils/auth_utils.py"
         ],
         [
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/common.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/auth_utils.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/auth_service.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py"
+            "utils/common.py",
+            "services/session_service.py",
+            "models/user.py",
+            "controllers/user_controller.py",
+            "services/user_service.py"
         ],
         [
-            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/auth_utils.py",
-            "/Users/noellejung/Loop-Labyrinth-Analysis/services/auth_service.py"
+            "services/user_service.py",
+            "models/user.py",
+            "controllers/user_controller.py"
         ]
     ]
 }

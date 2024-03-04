@@ -24,6 +24,7 @@ class ImportLoopDetector:
 
     def extract_imports(self, tree, filepath):
         # Extract just the filename
+        filepath = os.path.relpath(filepath, self.root_dir)
         for node in ast.walk(tree):
             if isinstance(node, ast.Import):
                 for alias in node.names:
@@ -37,7 +38,9 @@ class ImportLoopDetector:
                 module_path = os.path.join(
                     self.root_dir, module_name.replace(".", os.sep) + ".py"
                 )
+
                 if os.path.exists(module_path):
+                    module_path = os.path.relpath(module_path, self.root_dir)
                     self.dependency_graph.add_edge(filepath, module_path)
 
     def detect_import_loops(self):
