@@ -1,0 +1,39 @@
+{
+    "loops": [
+        [
+            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/product_controller.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/product_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/models/product.py"
+        ],
+        [
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/session_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/common.py"
+        ],
+        [
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py"
+        ],
+        [
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/auth_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py"
+        ],
+        [
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/user_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/common.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/auth_utils.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/auth_service.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/models/user.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/controllers/user_controller.py"
+        ],
+        [
+            "/Users/noellejung/Loop-Labyrinth-Analysis/utils/auth_utils.py",
+            "/Users/noellejung/Loop-Labyrinth-Analysis/services/auth_service.py"
+        ]
+    ]
+}
